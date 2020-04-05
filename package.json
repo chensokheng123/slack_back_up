@@ -1,0 +1,23 @@
+{
+  "name": "backup_bot",
+  "version": "1.0.0",
+  "description": "slack backup channel",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "@slack/web-api": "^5.8.0",
+    "google-spreadsheet": "^3.0.10",
+    "lodash": "^4.17.15",
+    "nedb-async": "^0.1.3"
+  }
+}
